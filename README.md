@@ -1,4 +1,4 @@
-# idormap <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7 14 L14 7 L17 10 L10 17 Z" fill="white" stroke="black" stroke-width="1"/><path d="M9 12 L12 9 L15 12 L12 15 Z" fill="red"/></svg>
+# idormap <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Syringe_font_awesome.svg" width="24" />
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue) [![GitHub Repo](https://img.shields.io/badge/GitHub-idormap-black?logo=github)](https://github.com/idormapproject/idormap/) ![Status](https://img.shields.io/badge/Status-Active-brightgreen) ![Version](https://img.shields.io/badge/Version-1.0.0-purple)
 
