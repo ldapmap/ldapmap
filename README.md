@@ -1,5 +1,5 @@
-[![English](https://flagcdn.com/w40/gb.png)](./README.md)
-[![Français](https://flagcdn.com/w40/fr.png)](./readme/translate/fr.md)
+[![English](https://img.shields.io/badge/language-English-blue?style=for-the-badge)](./README.md)
+[![Français](https://img.shields.io/badge/language-Français-blue?style=for-the-badge)](./readme/translate/fr.md)
 
 # ldapmap
 
