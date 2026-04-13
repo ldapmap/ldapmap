@@ -47,3 +47,49 @@ The tool operates in the following phases:
 
 <img width="1315" height="722" alt="image" src="https://github.com/user-attachments/assets/0bb8326a-135c-4497-a1dd-20f083eb4b5a" />
 
+## help
+
+```
+LDAPMap - LDAP injection detection and exploitation tool.
+
+Usage examples:
+  python ldapmap.py -u "http://target/search?cn=INPUT"
+  python ldapmap.py -u "http://target/login" --data="username=admin&password=INPUT"
+  python ldapmap.py -u "http://target/search?cn=INPUT" -d error_based boolean_based -v
+
+
+options:
+  -h, --help            show this help message and exit
+  -u URL, --url URL     Target URL with INPUT placeholder (ex: http://target/search?cn=INPUT)
+  -m {GET,POST,PUT,DELETE}, --method {GET,POST,PUT,DELETE}
+                        HTTP method (default: GET)
+  --data DATA           POST data (ex: username=admin&password=INPUT)
+  -d {error_based,boolean_based,time_based} [{error_based,boolean_based,time_based} ...], --detector {error_based,boolean_based,time_based} [{error_based,boolean_based,time_based} ...]
+                        Detectors to use (default: error_based boolean_based)
+  -p {authentication_bypass,data_extraction,blind} [{authentication_bypass,data_extraction,blind} ...], --payload {authentication_bypass,data_extraction,blind} [{authentication_bypass,data_extraction,blind} ...]
+                        Payload types to use (default: authentication_bypass data_extraction)
+  --threads THREADS, -T THREADS
+                        Number of threads (default: 5)
+  --timeout TIMEOUT     Request timeout in seconds (default: 30)
+  --delay DELAY         Delay between requests in seconds (default: 0)
+  --retries RETRIES     Number of retries (default: 3)
+  -H HEADER [HEADER ...], --header HEADER [HEADER ...]
+                        HTTP headers (ex: 'Authorization: Bearer token')
+  --cookie COOKIE       Cookies (ex: sessionid=abc123; auth=xyz)
+  --proxy PROXY         Proxy HTTP (ex: http://127.0.0.1:8080)
+  --no-verify-ssl       Disable SSL verification
+  -v, --verbose         Verbose mode
+  --no-banner           Hide banner
+  --version             Show version
+
+Exploitation:
+  --exploit             Enable exploitation mode after detection
+  --enum-users          Enumerate LDAP users
+  --dump                Full LDAP database dump
+  --csv                 Export results to CSV
+  --output OUTPUT       Output directory for exports (default: ./output)
+
+Placeholders: Use INPUT in the URL or data to indicate the injection point.
+```
+
+
