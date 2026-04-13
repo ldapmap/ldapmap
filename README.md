@@ -1,4 +1,4 @@
-# idormap
+# idormap 🗺️
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/downloads/release/python-3120/) [![GitHub Repo](https://img.shields.io/badge/GitHub-idormap-black?logo=github)](https://github.com/idormapproject/idormap/) ![Version](https://img.shields.io/badge/Version-1.0.0-purple)
 
