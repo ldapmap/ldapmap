@@ -92,7 +92,9 @@ Exploitation:
 Placeholders: Use INPUT in the URL or data to indicate the injection point.
 ```
 
-## example dump output 
+## example dump output dashboard
+
+[ EXTRACTED USERS (14) ]
 
 | UID          | CN            | Email                 | OU           | Role        |
 |--------------|---------------|----------------------|--------------|-------------|
