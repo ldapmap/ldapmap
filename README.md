@@ -1,4 +1,5 @@
 [![English](https://img.shields.io/badge/language-English-blue?style=for-the-badge)](./README.md)
+|
 [![Français](https://img.shields.io/badge/language-Français-blue?style=for-the-badge)](./readme/translate/fr.md)
 
 # ldapmap
