@@ -50,14 +50,6 @@ The tool operates in the following phases:
 ## help
 
 ```
-LDAPMap - LDAP injection detection and exploitation tool.
-
-Usage examples:
-  python ldapmap.py -u "http://target/search?cn=INPUT"
-  python ldapmap.py -u "http://target/login" --data="username=admin&password=INPUT"
-  python ldapmap.py -u "http://target/search?cn=INPUT" -d error_based boolean_based -v
-
-
 options:
   -h, --help            show this help message and exit
   -u URL, --url URL     Target URL with INPUT placeholder (ex: http://target/search?cn=INPUT)
@@ -88,8 +80,6 @@ Exploitation:
   --dump                Full LDAP database dump
   --csv                 Export results to CSV
   --output OUTPUT       Output directory for exports (default: ./output)
-
-Placeholders: Use INPUT in the URL or data to indicate the injection point.
 ```
 
 ## example dump output dashboard
