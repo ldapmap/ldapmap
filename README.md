@@ -88,23 +88,11 @@ Exploitation:
   --output OUTPUT       Output directory for exports (default: ./output)
 ```
 
-## example dump output dashboard
+## installation
 
-[ EXTRACTED USERS (14) ]
+`pip install ldapmap`
 
-| UID          | CN            | Email                 | OU           | Role        |
-|--------------|---------------|----------------------|--------------|-------------|
-| admin        | Administrator | admin@example.com    | admins       | admin       |
-| john_doe     | John          | john@example.com     | engineering  | developer   |
-| jane_smith   | Jane          | jane@example.com     | finance      | analyst     |
-| bob_wilson   | Bob           | bob@example.com      | hr           | manager     |
-| alice_brown  | Alice         | alice@example.com    | marketing    | specialist  |
-| ceo          | CEO           | ceo@example.com      | executives   | ceo         |
-| cfo          | CFO           | cfo@example.com      | executives   | cfo         |
-| cmo          | CMO           | cmo@example.com      | executives   | cmo         |
-| developer1   | Dev           | dev1@example.com     | engineering  | junior_dev  |
-| developer2   | Dev           | dev2@example.com     | engineering  | senior_dev  |
-| dba          | Database      | dba@example.com      | it           | dba         |
-| sysadmin     | System        | sysadmin@example.com  | it           | sysadmin    |
-| intern       | Summer        | intern@example.com    | interns      | intern      |
-| contractor   | External      | contractor@external.com | contractors | contractor |
+### uninstallation
+
+`pip uninstall ldapmap`
+
