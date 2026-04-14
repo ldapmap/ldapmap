@@ -6,7 +6,7 @@
 
 # ldapmap
 
-[![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/downloads/release/python-3120/) [![GitHub Repo](https://img.shields.io/badge/GitHub-idormap-black?logo=github)](https://github.com/idormapproject/idormap/) ![Version](https://img.shields.io/badge/Version-1.0.0-purple)
+[![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/downloads/release/python-3120/) [![GitHub Repo](https://img.shields.io/badge/GitHub-ldapmap-black?logo=github)](https://github.com/ldapmap/ldapmap) ![Version](https://img.shields.io/badge/Version-1.0.0-purple)
 
 ldapmap est un outil open-source de test de sécurité conçu pour détecter et analyser les vulnérabilités d'injection LDAP dans les applications utilisant des annuaires LDAP. Il aide les chercheurs en sécurité et les pentesters à identifier les requêtes LDAP mal sécurisées, où les entrées utilisateur sont insuffisamment filtrées, pouvant permettre un contournement d’authentification, un accès non autorisé à l’annuaire ou une fuite de données depuis des systèmes LDAP / Active Directory.
 
