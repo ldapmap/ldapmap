@@ -6,7 +6,7 @@
 
 # ldapmap
 
-[![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/downloads/release/python-3120/) [![GitHub Repo](https://img.shields.io/badge/GitHub-idormap-black?logo=github)](https://github.com/idormapproject/idormap/) ![Version](https://img.shields.io/badge/Version-1.0.0-purple)
+[![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/downloads/release/python-3120/) [![GitHub Repo](https://img.shields.io/badge/GitHub-ldapmap-black?logo=github)](https://github.com/ldapmap/ldapmap) ![Version](https://img.shields.io/badge/Version-1.0.0-purple)
 
 ldapmap ist ein Open-Source-Sicherheitstool zur Erkennung und Analyse von LDAP-Injection-Schwachstellen in Anwendungen, die LDAP-Verzeichnisse verwenden. Es hilft Sicherheitsexperten und Pentestern dabei, unsichere LDAP-Abfragen zu identifizieren, bei denen Benutzereingaben nicht korrekt validiert werden. Dies kann zu Authentifizierungsumgehung, unbefugtem Zugriff auf Verzeichnisse oder Datenlecks in LDAP-/Active-Directory-Systemen führen.
 
