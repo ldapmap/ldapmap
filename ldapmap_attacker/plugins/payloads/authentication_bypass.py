@@ -16,7 +16,6 @@ class AuthenticationBypassPayload(BasePayload):
                     if line and not line.startswith('#'):
                         payloads.append((line, "bypass", "auth bypass"))
         except FileNotFoundError:
-            # fallback si fichier pas trouve
             payloads = [
                 ("*", "wildcard", "match all"),
                 ("admin*", "wildcard", "admin prefix"),
