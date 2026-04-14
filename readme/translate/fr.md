@@ -1,8 +1,8 @@
-[![English](https://img.shields.io/badge/language-English-blue?style=for-the-badge)](./README.md)
+[![English](https://img.shields.io/badge/language-English-blue?style=for-the-badge)](../../README.md)
 ;
-[![Français](https://img.shields.io/badge/language-Français-blue?style=for-the-badge)](./readme/translate/fr.md)
+[![Français](https://img.shields.io/badge/language-Français-blue?style=for-the-badge)](./fr.md)
 ;
-[![Deutsch](https://img.shields.io/badge/language-Deutsch-blue?style=for-the-badge)](./readme/translate/de.md)
+[![Deutsch](https://img.shields.io/badge/language-Deutsch-blue?style=for-the-badge)](./de.md)
 
 # ldapmap
 
