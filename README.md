@@ -92,7 +92,8 @@ Exploitation:
 
 `pip install ldapmap`
 
-### uninstallation
+or 
 
-`pip uninstall ldapmap`
+`git clone https://github.com/ldapmap/ldapmap.git`
+
 
