@@ -90,9 +90,6 @@ Exploitation:
 
 ## installation
 
-`pip install ldapmap`
-
-or 
 
 `git clone https://github.com/ldapmap/ldapmap.git`
 
